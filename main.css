@@ -37,11 +37,11 @@ body{
 	box-sizing: border-box;
 }
 
-video {
+/*video {
   pointer-events: none;
   border: 0; 
   display: inline-block
-}
+}*/
 
 .container{
 	width: 1087px;
@@ -109,3 +109,33 @@ section article{
 	margin-bottom: 100px;
 	display: inline-block;
 }
+
+
+.taxi-icon{
+	width: 300px;
+	height: 300px;
+	margin: 0 auto 50px auto; 
+	position: relative;
+	border-radius: 150px; 
+	background: url(./images/taxi-icon.jpg) no-repeat 50%;
+	overflow: hidden;
+}
+
+.taxi-icon span{
+	opacity: 0;
+	transition: all .4s;
+}
+
+.taxi-icon:hover span{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	left:0;
+	top:0;
+	background: url(./images/taxi-icon-2.jpg) no-repeat 50%;
+	opacity: 1;
+}
+
+
+
+

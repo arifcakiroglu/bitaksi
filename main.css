@@ -1,0 +1,111 @@
+@font-face {
+	font-family: 'FaktProSoft';
+	src: url('./fonts/FaktSoftPro-Blond.eot');
+	src: url('./fonts/FaktSoftPro-Blond.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/FaktSoftPro-Blond.woff') format('woff'),
+		url('./fonts/FaktSoftPro-Blond.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'FaktProSoft';
+	src: url('./fonts/FaktSoftPro-Normal.eot');
+	src: url('./fonts/FaktSoftPro-Normal.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/FaktSoftPro-Normal.woff') format('woff'),
+		url('./fonts/FaktSoftPro-Normal.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+html{
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1;
+}
+
+body{
+	margin: 0;
+	background: #282828;
+	height: 100%;
+	font-family: "FaktProSoft",Helvetica Neue,helvetica,arial,sans-serif;
+	color:#8492a6;
+	line-height: 34px;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+video {
+  pointer-events: none;
+  border: 0; 
+  display: inline-block
+}
+
+.container{
+	width: 1087px;
+	height: auto;
+	margin: 20px auto;
+	background-color: #ecf1f6;
+	border-radius: 5px;
+	overflow: hidden;
+	padding-bottom: 50px
+}
+
+.container > h1{
+	display: block;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+h1{
+	color:#3c4858;
+	font-weight: 400
+}
+
+header{
+	background: url('./images/header.jpg') no-repeat 50%;
+	width: 100%;
+	height: 990px;
+}
+
+section{
+	display: flex;
+	line-height: 24px;
+	margin-bottom: 150px
+}
+
+section aside{
+	width: 45%;
+	height: 887px;
+	background: url('./images/moc.png') no-repeat 50%;
+	position: relative;
+}
+
+section.final {
+	display: block;
+}
+
+section.final aside{
+	margin: 0 auto ;
+}
+
+section video,
+section img{
+	position: absolute;
+	left: 58px;
+	top: 100px;
+}
+
+section article{
+	width: 55%;
+	height: 600px;
+	padding: 100px 80px 0;
+}
+
+[antre]{
+	padding: 0 80px;
+	margin-bottom: 100px;
+	display: inline-block;
+}
